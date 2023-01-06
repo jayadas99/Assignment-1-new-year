@@ -85,15 +85,25 @@ ul li {
     justify-content: space-around;
 }
 
+
+
 .plan {
     background: #FFFFFF;
     border-radius: 5px;
     padding: 0px;
 }
+.plan-subtitle{
+    font-weight: 700px;
+    font-size: 40px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #151414;
+}
 .plan-title {
-    font-weight: 700;
+    
     font-size: 20px;
-    margin-top: 30px;
+    margin-top: 60px;
     margin-bottom: 20px;
     text-align: center;
     color: #151414;
@@ -102,4 +112,76 @@ ul li {
 .plan-description {
     color: #737272;
 
+}
+
+/* my vision styles */
+.aim{margin-left: 50pm;
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    color: #FFFFFF;
+}
+.btn1{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    justify-items: center;
+}
+.btn2{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    justify-items: center;
+    text-align: center;
+
+}
+.my vision{
+    text-align: center;
+}
+.vision{
+    background-image: url("/images/watch.png");
+    width:75%;
+    border-radius: 8px;
+    margin-left:  230px;
+    
+    margin-bottom: 60px;
+}
+
+/* contact style */
+
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+.contact .contact-title{
+    text-align: left;
+}
+
+.contact input[type="text"], {
+    margin-bottom: 24px;
+    border: 0;
+    width:100%;
+    padding: 18px 30px;
+}
+
+input{
+    height: 64px;
+}
+
+.contact a{
+    text-decoration: none;
 }
