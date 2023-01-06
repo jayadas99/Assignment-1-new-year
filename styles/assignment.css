@@ -37,7 +37,7 @@
 }
 
 header {
-    background-image: url("/images/banner/banner2.png");
+    background-image: url("../images/banner/banner2.png");
 
     height: 600px;
     background-size: cover;
@@ -151,7 +151,7 @@ ul li {
     text-align: center;
 }
 .vision{
-    background-image: url("/images/watch.png");
+    background-image: url("../images/watch.png");
     width:75%;
     border-radius: 8px;
     margin-left:  230px;
