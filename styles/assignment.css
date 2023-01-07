@@ -5,9 +5,11 @@
 }
 
 .banner {
-    text-align: right;
-    margin-right: 200px;
-
+    text-align:right;
+    display: flex;
+    padding-top: 140px ;
+    padding-left: 800px;
+    margin-right: 0;
 }
 
 .banner-title {
@@ -16,7 +18,7 @@
     line-height: 76px;
     color: #151414;
     padding: 0px;
-
+   
 }
 
 .banner-paragraph {
@@ -38,18 +40,17 @@
 
 header {
     background-image: url("../images/banner/banner2.png");
-
     height: 600px;
     background-size: cover;
     width: 100%;
-
 }
 
 /* banner2styles */
+
 .banner2 {
     display: flex;
     align-items: center;
-    margin: 0 200px;
+
 }
 
 .banner2-title {
@@ -157,10 +158,11 @@ ul li {
     text-align: center;
 }
 
-:root{
+:root {
     --primary: rgb(255, 0, 85);
     --secondary: rgb(0, 0, 0);
 }
+
 .vision {
     background-image: url("../images/watch.png");
     background-blend-mode: difference;
@@ -169,7 +171,7 @@ ul li {
     margin-left: 230px;
 
     margin-bottom: 60px;
-    background:linear-gradient(135deg,var(--primary),var(--secondary)), url(../images/watch.png) no-repeat center center / cover;
+    background: linear-gradient(135deg, var(--primary), var(--secondary)), url(../images/watch.png) no-repeat center center / cover;
 }
 
 /* contact style */
@@ -187,17 +189,21 @@ ul li {
 .contact .contact-title {
     text-align: left;
 }
-.contact-title{
+
+.contact-title {
     margin-bottom: 5px;
 }
-.contact-description{
+
+.contact-description {
     margin-bottom: 5px;
 }
-.contact-mail{
+
+.contact-mail {
     margin-bottom: 30px;
     margin-top: 30px;
 }
-.contact-no{
+
+.contact-no {
     margin-bottom: 20px;
 }
 
