@@ -181,10 +181,24 @@ ul li {
     padding: 130px 200px;
     color: aqua;
     background-color: #151414;
+    margin-bottom: 10px;
 }
 
 .contact .contact-title {
     text-align: left;
+}
+.contact-title{
+    margin-bottom: 5px;
+}
+.contact-description{
+    margin-bottom: 5px;
+}
+.contact-mail{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.contact-no{
+    margin-bottom: 20px;
 }
 
 .contact input[type="text"],
