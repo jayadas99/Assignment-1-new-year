@@ -166,6 +166,8 @@ ul li {
     gap: 100px;
     background: #FFF8F3;
     padding: 130px 200px;
+    color: aqua;
+    background-color: #151414;
 }
 .contact .contact-title{
     text-align: left;
