@@ -70,7 +70,7 @@ header {
 
 ul li {
     display: list-item;
-    
+
     color: #444343;
     padding: 10px 20px;
     color: #444343;
@@ -81,7 +81,7 @@ ul li {
 .plans-container {
     display: flex;
     gap: 0px;
-    align:center;
+    align: center;
     justify-content: space-around;
 }
 
@@ -92,7 +92,8 @@ ul li {
     border-radius: 5px;
     padding: 0px;
 }
-.plan-subtitle{
+
+.plan-subtitle {
     font-weight: 700px;
     font-size: 40px;
     margin-top: 60px;
@@ -100,8 +101,9 @@ ul li {
     text-align: center;
     color: #151414;
 }
+
 .plan-title {
-    
+
     font-size: 20px;
     margin-top: 60px;
     margin-bottom: 20px;
@@ -115,7 +117,8 @@ ul li {
 }
 
 /* my vision styles */
-.aim{margin-left: 50pm;
+.aim {
+    margin-left: 50pm;
     text-align: center;
     font-weight: 700;
     font-size: 35px;
@@ -123,7 +126,8 @@ ul li {
     margin-top: 100px;
     color: black;
 }
-.btn1{
+
+.btn1 {
     color: black;
     font-weight: 700;
     font-size: 20px;
@@ -134,7 +138,8 @@ ul li {
     background: #FD6E0A;
     justify-items: center;
 }
-.btn2{
+
+.btn2 {
     color: maroon;
     font-weight: 700;
     font-size: 20px;
@@ -147,21 +152,29 @@ ul li {
     text-align: center;
 
 }
-.my vision{
+
+.my vision {
     text-align: center;
 }
-.vision{
+
+:root{
+    --primary: rgb(255, 0, 85);
+    --secondary: rgb(0, 0, 0);
+}
+.vision {
     background-image: url("../images/watch.png");
-    width:75%;
+    background-blend-mode: difference;
+    width: 75%;
     border-radius: 8px;
-    margin-left:  230px;
-    
+    margin-left: 230px;
+
     margin-bottom: 60px;
+    background:linear-gradient(135deg,var(--primary),var(--secondary)), url(../images/watch.png) no-repeat center center / cover;
 }
 
 /* contact style */
 
-.contact{
+.contact {
     display: flex;
     gap: 100px;
     background: #FFF8F3;
@@ -169,18 +182,20 @@ ul li {
     color: aqua;
     background-color: #151414;
 }
-.contact .contact-title{
+
+.contact .contact-title {
     text-align: left;
 }
 
-.contact input[type="text"], {
-    margin-bottom: 24px;
-    border: 0;
-    width:100%;
-    padding: 18px 30px;
+.contact input[type="text"],
+{
+margin-bottom: 24px;
+border: 0;
+width: 100%;
+padding: 18px 30px;
 }
 
-.input-id{
+.input-id {
     height: 40px;
     width: 400px;
     border-radius: 8px;
@@ -189,11 +204,12 @@ ul li {
 
 }
 
-.contact a{
+.contact a {
     text-decoration: none;
 }
-.btn3{
-    color:#FD6E0A;
+
+.btn3 {
+    color: #FD6E0A;
     font-weight: 600;
     font-size: 20px;
     border: 0;
@@ -204,5 +220,9 @@ ul li {
     text-align: center;
     background: #FFFFFF;
     margin-top: 10px;
-    
+
 }
+
+
+
+/* ------- */
